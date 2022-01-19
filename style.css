@@ -1,0 +1,235 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(247,134,74);
+    width: 100%;
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.t0{
+    color: white;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+.t0 span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.t1{
+    word-spacing: .2rem;
+}
+.t1 a{
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width:220px) {
+    nav{
+        width: 220px;
+    }
+}
+@media only screen and (max-width:545px) {
+    nav{
+        display: block;
+        height: auto;
+    }
+    .t1{
+        padding-left: 1rem;
+    }
+}
+.t2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    padding-top: 1.5rem;
+}
+@media screen and (max-width:1300px) {
+    .t2{
+        height: auto;
+    }
+    .at{
+        height: auto;
+    }
+    .at1{
+        height: auto;
+    }
+}
+.at{
+    background-color: rgb(253, 244, 244);
+    width: 90%;
+    height: 50vh;
+    margin-left: 1rem;
+}
+.at i{
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: rgb(249,186,55);
+}
+.at1{
+    background-color: rgb(255, 246, 246);
+    width: 90%;
+    height: 50vh;
+    margin-left: 1rem;
+}
+.at1 button:hover{
+    background-color: rgb(255,173,3);
+    color: white;
+}
+.at button:hover{
+    background-color: rgb(255,173,3);
+    color: white;
+}
+.at1 i{
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: rgb(249,186,55);
+}
+.at h3, p{
+    color: rgb(142,142,142);
+}
+.at1 h3, p{
+    color: rgb(142,142,142);
+}
+@media only screen and (max-width:500px) {
+    .t2{
+        display: block;
+        text-align: center;
+    }
+    .at{
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .at1{
+        margin-left: 1rem;
+    }
+    .t3{
+        display: block;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:634px) {
+    .fori{
+        height: 12rem;
+        width: 12rem;
+    }
+    .forim{
+        height: 12rem;
+        width: 12rem;
+    }
+}
+@media only screen and (max-width:424px) {
+    .fori{
+        height: 8rem;
+        width: 8rem;
+    }
+    .forim{
+        height: 8rem;
+        width: 8rem;
+    }
+}
+@media only screen and (max-width:970px),
+            screen and (max-height:454px) {
+    .at{
+        height: auto;
+    }
+    .at1{
+        height: auto;
+    }
+    .t2{
+        height: auto;
+    }
+}
+.t2 button{
+    border-radius: 2rem;
+    width: 6rem;
+    border: 2px solid rgb(152,152,152);
+    color: rgb(152,152,152);
+    background-color: white;
+}
+.t3 h1{
+    color: rgb(142,142,142);
+}
+.t3{
+    padding-top: 3rem;
+    padding-left: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+}
+.tt3{
+    text-align: center;
+    width: 100%;
+}
+.t3 button{
+    border-radius: 2rem;
+    width: 6rem;
+    border: 2px solid rgb(152,152,152);
+    color: rgb(152,152,152);
+    background-color: white;
+}
+.t4 h1{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    color: rgb(142,142,142);
+}
+.t4 img{
+    width: 100%;
+}
+.t05{
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+    background-color: rgb(246,246,246);
+}
+.t05 h1{
+    color: rgb(102,102,102);
+}
+.t5{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: rgb(102,102,102);
+}
+.t6{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: rgb(102,102,102);
+    padding-top: 1rem;
+}
+.t7{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 1rem;
+    width: 100%;
+}
+.t7 h1{
+    color: rgb(142,142,142);
+}
+.t7 button{
+    border-radius: 2rem;
+    width: 6rem;
+    border: 2px solid rgb(152,152,152);
+    color: rgb(152,152,152);
+    background-color: white;
+}
+.t8{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 1rem;
+    color: rgb(152,152,152);
+}
+.t8 button{
+    border-radius: 2rem;
+    width: 6rem;
+    border: 2px solid rgb(152,152,152);
+    color: rgb(152,152,152);
+    background-color: white;
+}
